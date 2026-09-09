@@ -16,6 +16,18 @@ Three models were built and compared, each one improving on the last:
 
 The final model classifies **7 categories** — healthy fish plus bacterial red disease, aeromoniasis, bacterial gill disease, saprolegniasis (fungal), parasitic diseases, and white tail disease (viral) — with macro-averaged precision, recall, and F1 all at **0.93** across 697 test images.
 
+## Results
+
+![Model comparison: baseline vs transfer learning vs FishNet](assets/fish_model_comparison.png)
+
+![Training and validation curves for the final FishNet model](assets/fish_training_curves.png)
+
+![Confusion matrix on the 697-image test set](assets/fish_confusion_matrix.png)
+
+Sample images from the dataset:
+
+![Sample fish images](assets/fish_sample_images.png)
+
 ## What's in this repo
 
 | Folder | Contents |
